@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="container">
+    <div class="col-1">
+        <img src="images/BIPASSER.png" class="logo">
+        <ul>
+            <li><img src="images/icon.png"> Article will be delivered within 24hrs.</li>
+            <li><img src="images/icon.png"> make sure you enter correct keywords.</li>
+            <li><img src="images/icon.png"> assured 90% human content.</li>
+            <li><img src="images/icon.png"> the best AI bypasser in the market.</li>
+            <li><img src="images/icon.png"> wide range of selection of articles.</li>
+            <li><img src="images/icon.png"> price mentioned per use.</li>
+            <li><img src="images/icon.png"> price for PLAN-A is 5$.</li>
+            <li><img src="images/icon.png">price for PLAN-B is 10$.</li>
+            <li><img src="images/icon.png"> price for PLAN-C is 15$.</li>
+        </ul>
+    </div>
+    <div class="col-2">
+<br> <br>
+        <h2><img src="images/icon.png"> Our Plans</h2>
+        <form action="connect.php" method="post">
+            <label for="PLAN-A">
+                <input type="radio" name="plan" id="PLAN-A" value="a">
+                <span>PLAN-A</span> 5 Articles
+            </label>
+           <label for="PLAN-B">
+                <input type="radio" name="plan" id="PLAN-B" value="b">
+                <span>PLAN-B </span> 40 Articles
+           </label>
+           <label for="PLAN-C">
+            <input type="radio" name="plan" id="PLAN-C" value="c">
+            <span>PLAN-C </span> 60 Articles
+       </label>
+           <br>
+           <p>Full Name  </p>
+           <input type="text" placeholder="Enter Your Name" required name="fullname">
+           <p>EMAIL ADDRESS</p>
+           <input type="email" placeholder="Enter Your Email Id" required name="email">
+           <p>Password</p>
+           <input type="password" placeholder="Enter Your password" required name="pass">
+           <button type="submit"><a >Subscribe</a></button>  
+        </form>
+
+    </div>
+</div>
+    </body>
+</html>
